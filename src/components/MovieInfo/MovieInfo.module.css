@@ -1,0 +1,66 @@
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.backButton {
+  align-self: flex-start;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.backButton:hover {
+  background-color: #0056b3;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.movieImage {
+  width: 300px;
+  height: auto;
+}
+
+.movieDetails {
+  max-width: 600px;
+}
+
+.movieTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.movieOverview {
+  font-size: 16px;
+  color: #555;
+}
+
+.movieNav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.movieNav a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.movieNav a:hover {
+  color: #0056b3;
+}

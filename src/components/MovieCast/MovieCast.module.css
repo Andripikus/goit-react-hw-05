@@ -1,0 +1,23 @@
+.castList {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.castItem {
+  border: 1px solid black;
+  border-radius: 4px;
+  flex-basis: calc((100% - 40px) / 5);
+  text-align: center;
+}
+
+.castImage {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.castName,
+.characterName {
+  text-align: center;
+}
